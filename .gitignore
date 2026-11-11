@@ -1,0 +1,42 @@
+# 仿真产物
+*.vcd
+*.fst
+*.fsdb
+*.wlf
+*.shm
+*.log
+*.jou
+work/
+xsim.dir/
+sim_build/
+
+# 覆盖率
+*.ucdb
+*.vdb
+cov_*.dat
+
+# 综合与实现产物
+*.ddc
+*.svf
+netlist/
+synth_out/
+*.def
+*.spef
+*.rpt
+*.ndm
+
+# 大二进制（如需入库请改用 LFS）
+*.gds
+*.oas
+*.lef
+*.lib
+*.db
+*.zip
+
+# 编辑器与缓存
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+*.swp
+.DS_Store
